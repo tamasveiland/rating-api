@@ -1,5 +1,5 @@
 # FROM registry.access.redhat.com/ubi8/nodejs-14
-FROM registr
+FROM openshift/nodejs:14-ubi8
 
 WORKDIR /opt/app-root
 COPY package*.json ./
